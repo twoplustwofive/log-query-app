@@ -1,0 +1,32 @@
+.navigationWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  color: var(--color-primary-text-grey-45);
+  transition: all 0.4s ease;
+}
+
+.navigationIcon {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: var(--color-primary-text-grey-45);
+  background-color: var(--color-primary-98);
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10rem;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+.navigationIcon:hover {
+  background-color: var(--color-primary-text-grey-45);
+  color: var(--color-primary-98);
+}
+.navigationIcon.disable {
+  cursor: default;
+  pointer-events: none;
+}
