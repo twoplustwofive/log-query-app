@@ -99,6 +99,7 @@ const LogsComponent = () => {
     { headerName: "Message", field: "message", flex: 1 },
     { headerName: "Resource Id", field: "resourceId", flex: 1 },
     { headerName: "Timestamp", field: "timestamp", flex: 1 },
+    { headerName: "Trace Id", field: "traceId", flex: 1 },
     { headerName: "Span Id", field: "spanId", flex: 1 },
     { headerName: "Commit", field: "commit", flex: 1 },
     {
